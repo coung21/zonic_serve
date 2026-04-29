@@ -1,5 +1,5 @@
 [project]
-name = "sonic-serve"
+name = "zonic-serve"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
