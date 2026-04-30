@@ -1,0 +1,12 @@
+model: 
+  class_path: "model.dummy.DummyModel"
+  init_kwargs: {}
+
+scheduler:
+  max_batch_size: 8
+  max_delay_ms: 50
+
+server:
+  port: 8000
+  host: "0.0.0.0"
+  
