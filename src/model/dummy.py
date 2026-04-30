@@ -1,6 +1,9 @@
 import time
 from typing import List, Any
-from .base import BaseModel
+try:
+    from .base import BaseModel
+except ImportError:
+    from base import BaseModel
 
 class DummyModel(BaseModel):
     """ 
