@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+import os
+from pathlib import Path
 import asyncio
 from src.model.dummy import DummyModel
 from src.engine.scheduler import BatchScheduler
@@ -9,9 +11,6 @@ from src.config.loader import load_config
 app = FastAPI()
 
 
-
-import os
-from pathlib import Path
 
 @app.on_event("startup")
 async def startup():
