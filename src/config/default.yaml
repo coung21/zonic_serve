@@ -1,5 +1,5 @@
 model: 
-  class_path: "model.dummy.DummyModel"
+  class_path: "src.model.dummy.DummyModel"
   init_kwargs: {}
 
 scheduler:
